@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ChungSoft – Thiết kế website đẹp, chuyên nghiệp, giá từ 500K. Chuẩn SEO, SSL miễn phí, Responsive, tối ưu tốc độ." />
+  <meta name="keywords" content="thiết kế web, làm website giá rẻ, website 500k, thiết kế web chuyên nghiệp, ChungSoft" />
+  <title>ChungSoft – Thiết kế Website Đẹp, Giá Từ 500K</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ChungSoft",
+    "description": "Thiết kế website đẹp, chuyên nghiệp, giá từ 500K",
+    "url": "https://chungsoft.vn",
+    "telephone": "+84-xxx-xxx-xxxx"
+  }
+  </script>
+</head>
+<body>
+
+<!-- ===================== NAVIGATION ===================== -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="#" class="nav-logo" aria-label="ChungSoft Home">
+      <span class="logo-icon">⚡</span>
+      <span class="logo-text">Chung<span class="logo-accent">Soft</span></span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services" data-i18n="nav.services">Dịch vụ</a></li>
+      <li><a href="#templates" data-i18n="nav.templates">Mẫu website</a></li>
+      <li><a href="#pricing" data-i18n="nav.pricing">Bảng giá</a></li>
+      <li><a href="#testimonials" data-i18n="nav.testimonials">Khách hàng</a></li>
+      <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Tư vấn miễn phí</a></li>
+    </ul>
+
+    <!-- Language switcher -->
+    <div class="lang-switcher" id="langSwitcher" aria-label="Language selector">
+      <button class="lang-btn active" data-lang="vi" aria-label="Tiếng Việt">VI</button>
+      <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+      <button class="lang-btn" data-lang="ko" aria-label="한국어">KO</button>
+      <button class="lang-btn" data-lang="zh" aria-label="中文">ZH</button>
+      <button class="lang-btn" data-lang="ja" aria-label="日本語">JA</button>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero" aria-label="Hero section">
+  <!-- Animated background particles (CSS only) -->
+  <div class="hero-bg" aria-hidden="true">
+    <div class="particle p1"></div>
+    <div class="particle p2"></div>
+    <div class="particle p3"></div>
+    <div class="particle p4"></div>
+    <div class="particle p5"></div>
+  </div>
+
+  <div class="hero-container">
+    <div class="hero-badge" data-i18n="hero.badge">🚀 Dịch vụ thiết kế web #1 Việt Nam</div>
+    <h1 class="hero-title" data-i18n="hero.title">
+      Website đẹp – giá nào cũng có<br />
+      <span class="gradient-text" data-i18n="hero.titleAccent">chỉ từ <em>500K</em></span>
+    </h1>
+    <p class="hero-sub" data-i18n="hero.sub">
+      Chuẩn SEO &nbsp;·&nbsp; SSL miễn phí &nbsp;·&nbsp; Responsive &nbsp;·&nbsp; Tối ưu tốc độ
+    </p>
+
+    <!-- Trust badges -->
+    <div class="hero-badges">
+      <span class="badge badge-ssl">🔒 SSL Free</span>
+      <span class="badge badge-resp">📱 Responsive</span>
+      <span class="badge badge-fast">⚡ Siêu nhanh</span>
+      <span class="badge badge-seo">🎯 SEO Ready</span>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#templates" class="btn btn-primary" data-i18n="hero.cta1">Xem mẫu website</a>
+      <a href="#contact" class="btn btn-outline" data-i18n="hero.cta2">Nhận tư vấn miễn phí</a>
+    </div>
+
+    <p class="hero-note" data-i18n="hero.note">Từ website 500K đến hệ thống doanh nghiệp – ChungSoft cân hết 💪</p>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- ===================== STATS ===================== -->
+<section class="stats" aria-label="Statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-in">
+        <div class="stat-num" data-count="500">0</div>
+        <div class="stat-label" data-i18n="stats.projects">Dự án đã giao</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-num" data-count="300">0</div>
+        <div class="stat-label" data-i18n="stats.clients">Khách hàng hài lòng</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-num" data-count="7">0</div>
+        <div class="stat-label" data-i18n="stats.years">Năm kinh nghiệm</div>
+      </div>
+      <div class="stat-item fade-in">
+        <div class="stat-num" data-count="99">0</div>
+        <div class="stat-suffix">%</div>
+        <div class="stat-label" data-i18n="stats.uptime">Uptime đảm bảo</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services section" id="services" aria-label="Services">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag" data-i18n="services.tag">Dịch vụ</span>
+      <h2 data-i18n="services.title">Không chỉ làm web giá rẻ<br /><span class="gradient-text">ChungSoft làm được dự án lớn</span></h2>
+      <p data-i18n="services.sub">Từ website đơn giản đến hệ thống phức tạp, chúng tôi đều có giải pháp phù hợp</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Budget packages -->
+      <div class="service-card card-budget fade-in">
+        <div class="service-icon">💎</div>
+        <div class="service-tag-label" data-i18n="services.budget.tag">Gói Phổ Thông</div>
+        <h3 data-i18n="services.budget.title">Website Giá Tốt</h3>
+        <p data-i18n="services.budget.desc">Phù hợp cho cá nhân, hộ kinh doanh, startup cần online nhanh với chi phí tối thiểu.</p>
+        <ul class="service-features">
+          <li data-i18n="services.budget.f1">✓ Template sẵn có, nhiều lựa chọn</li>
+          <li data-i18n="services.budget.f2">✓ SSL miễn phí (HTTPS)</li>
+          <li data-i18n="services.budget.f3">✓ Responsive mọi thiết bị</li>
+          <li data-i18n="services.budget.f4">✓ Chuẩn SEO cơ bản</li>
+          <li data-i18n="services.budget.f5">✓ Gia hạn hàng năm 500K</li>
+        </ul>
+        <div class="service-price">
+          <span class="price-from" data-i18n="services.budget.from">Chỉ từ</span>
+          <span class="price-amount">500.000 ₫</span>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm" data-i18n="services.budget.cta">Đặt ngay</a>
+      </div>
+
+      <!-- Premium packages -->
+      <div class="service-card card-premium fade-in">
+        <div class="service-badge-popular" data-i18n="services.premium.popular">Phổ biến nhất</div>
+        <div class="service-icon">🚀</div>
+        <div class="service-tag-label" data-i18n="services.premium.tag">Gói Cao Cấp</div>
+        <h3 data-i18n="services.premium.title">Thiết Kế Riêng & Hệ Thống Lớn</h3>
+        <p data-i18n="services.premium.desc">Thiết kế độc quyền theo thương hiệu, tích hợp backend phức tạp, web app, hệ thống quản lý.</p>
+        <ul class="service-features">
+          <li data-i18n="services.premium.f1">✓ Thiết kế UI/UX riêng cho thương hiệu</li>
+          <li data-i18n="services.premium.f2">✓ Web app / hệ thống quản lý phức tạp</li>
+          <li data-i18n="services.premium.f3">✓ Tích hợp backend, API, database</li>
+          <li data-i18n="services.premium.f4">✓ Tối ưu tốc độ & bảo mật cao cấp</li>
+          <li data-i18n="services.premium.f5">✓ Hỗ trợ kỹ thuật 24/7</li>
+          <li data-i18n="services.premium.f6">✓ Tùy chỉnh không giới hạn</li>
+        </ul>
+        <div class="service-price">
+          <span class="price-from" data-i18n="services.premium.from">Liên hệ</span>
+          <span class="price-amount" data-i18n="services.premium.price">Báo giá theo yêu cầu</span>
+        </div>
+        <a href="#contact" class="btn btn-gradient btn-sm" data-i18n="services.premium.cta">Nhận tư vấn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEMPLATES ===================== -->
+<section class="templates section" id="templates" aria-label="Template showcase">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag" data-i18n="templates.tag">Mẫu Website</span>
+      <h2 data-i18n="templates.title">Hàng chục mẫu đẹp<br /><span class="gradient-text">sẵn sàng cho bạn</span></h2>
+      <p data-i18n="templates.sub">Chọn mẫu phù hợp, chúng tôi cá nhân hóa theo thương hiệu của bạn trong 24h</p>
+    </div>
+
+    <!-- Filter tabs -->
+    <div class="template-filters fade-in" role="tablist" aria-label="Template categories">
+      <button class="filter-btn active" data-filter="all" role="tab" data-i18n="templates.all">Tất cả</button>
+      <button class="filter-btn" data-filter="shop" role="tab" data-i18n="templates.shop">Shop bán hàng</button>
+      <button class="filter-btn" data-filter="food" role="tab" data-i18n="templates.food">Quán ăn / F&B</button>
+      <button class="filter-btn" data-filter="landing" role="tab" data-i18n="templates.landing">Landing Page</button>
+      <button class="filter-btn" data-filter="corporate" role="tab" data-i18n="templates.corporate">Website công ty</button>
+    </div>
+
+    <div class="templates-grid" id="templatesGrid">
+      <!-- Template cards generated via JS for lazy load -->
+    </div>
+
+    <div class="templates-more fade-in">
+      <a href="#contact" class="btn btn-outline" data-i18n="templates.more">Xem thêm 50+ mẫu khác</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section class="pricing section" id="pricing" aria-label="Pricing">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag" data-i18n="pricing.tag">Bảng Giá</span>
+      <h2 data-i18n="pricing.title">Giá linh hoạt<br /><span class="gradient-text">ai cũng có thể làm website</span></h2>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="pricing-card fade-in">
+        <div class="pricing-name" data-i18n="pricing.starter.name">Starter</div>
+        <div class="pricing-price">500K<span class="pricing-period" data-i18n="pricing.period">/năm</span></div>
+        <div class="pricing-desc" data-i18n="pricing.starter.desc">Phù hợp cá nhân, freelancer</div>
+        <ul>
+          <li data-i18n="pricing.starter.f1">1 trang landing</li>
+          <li data-i18n="pricing.starter.f2">Template có sẵn</li>
+          <li data-i18n="pricing.starter.f3">SSL miễn phí</li>
+          <li data-i18n="pricing.starter.f4">Responsive</li>
+          <li data-i18n="pricing.starter.f5">Hỗ trợ qua Zalo</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm" data-i18n="pricing.cta">Bắt đầu ngay</a>
+      </div>
+
+      <div class="pricing-card pricing-featured fade-in">
+        <div class="pricing-badge" data-i18n="pricing.business.badge">Được chọn nhiều nhất</div>
+        <div class="pricing-name" data-i18n="pricing.business.name">Business</div>
+        <div class="pricing-price">2.500K<span class="pricing-period" data-i18n="pricing.period">/năm</span></div>
+        <div class="pricing-desc" data-i18n="pricing.business.desc">Cho doanh nghiệp vừa và nhỏ</div>
+        <ul>
+          <li data-i18n="pricing.business.f1">5–10 trang nội dung</li>
+          <li data-i18n="pricing.business.f2">Thiết kế bán tùy chỉnh</li>
+          <li data-i18n="pricing.business.f3">SSL + Backup tự động</li>
+          <li data-i18n="pricing.business.f4">SEO On-page</li>
+          <li data-i18n="pricing.business.f5">Tốc độ tối ưu</li>
+          <li data-i18n="pricing.business.f6">Hỗ trợ ưu tiên</li>
+        </ul>
+        <a href="#contact" class="btn btn-gradient btn-sm" data-i18n="pricing.cta">Bắt đầu ngay</a>
+      </div>
+
+      <div class="pricing-card fade-in">
+        <div class="pricing-name" data-i18n="pricing.enterprise.name">Enterprise</div>
+        <div class="pricing-price" data-i18n="pricing.enterprise.price">Liên hệ</div>
+        <div class="pricing-desc" data-i18n="pricing.enterprise.desc">Hệ thống phức tạp, web app lớn</div>
+        <ul>
+          <li data-i18n="pricing.enterprise.f1">Thiết kế UI/UX độc quyền</li>
+          <li data-i18n="pricing.enterprise.f2">Backend + API tùy chỉnh</li>
+          <li data-i18n="pricing.enterprise.f3">Tích hợp hệ thống CRM, ERP</li>
+          <li data-i18n="pricing.enterprise.f4">Bảo mật cao cấp</li>
+          <li data-i18n="pricing.enterprise.f5">SLA & hỗ trợ 24/7</li>
+          <li data-i18n="pricing.enterprise.f6">Không giới hạn tính năng</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-sm" data-i18n="pricing.enterprise.cta">Báo giá ngay</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BENEFITS ===================== -->
+<section class="benefits section" aria-label="Benefits">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag" data-i18n="benefits.tag">Tại sao chọn ChungSoft?</span>
+      <h2 data-i18n="benefits.title">Lợi ích vượt trội<br /><span class="gradient-text">không đâu có được</span></h2>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">🔒</div>
+        <h4 data-i18n="benefits.ssl.title">SSL Miễn Phí</h4>
+        <p data-i18n="benefits.ssl.desc">HTTPS bảo mật trên mọi gói, tăng uy tín và thứ hạng SEO.</p>
+      </div>
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">⚡</div>
+        <h4 data-i18n="benefits.speed.title">Tốc Độ Siêu Nhanh</h4>
+        <p data-i18n="benefits.speed.desc">Tối ưu Core Web Vitals, điểm Google PageSpeed 90+.</p>
+      </div>
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">📱</div>
+        <h4 data-i18n="benefits.responsive.title">Responsive 100%</h4>
+        <p data-i18n="benefits.responsive.desc">Hiển thị hoàn hảo trên mọi thiết bị, từ mobile đến 4K.</p>
+      </div>
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">🎯</div>
+        <h4 data-i18n="benefits.seo.title">Chuẩn SEO</h4>
+        <p data-i18n="benefits.seo.desc">Cấu trúc HTML chuẩn, meta tags, schema, sitemap tự động.</p>
+      </div>
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">💰</div>
+        <h4 data-i18n="benefits.price.title">Giá Linh Hoạt</h4>
+        <p data-i18n="benefits.price.desc">Từ 500K đến không giới hạn – luôn có gói phù hợp với bạn.</p>
+      </div>
+      <div class="benefit-item fade-in">
+        <div class="benefit-icon">🛠</div>
+        <h4 data-i18n="benefits.support.title">Hỗ Trợ Nhanh</h4>
+        <p data-i18n="benefits.support.desc">Phản hồi trong 2h, hỗ trợ Zalo/email mọi lúc mọi nơi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials section" id="testimonials" aria-label="Testimonials">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag" data-i18n="testimonials.tag">Khách hàng nói gì?</span>
+      <h2 data-i18n="testimonials.title">Hơn 300 khách hàng<br /><span class="gradient-text">tin tưởng ChungSoft</span></h2>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text" data-i18n="testimonials.t1.text">"Tôi chỉ có ngân sách 500K nhưng ChungSoft làm cho tôi một website cực đẹp, chuyên nghiệp. Khách hàng vào là hỏi mua ngay!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);">N</div>
+          <div>
+            <strong data-i18n="testimonials.t1.name">Nguyễn Thị Lan</strong>
+            <span data-i18n="testimonials.t1.role">Chủ shop thời trang online</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text" data-i18n="testimonials.t2.text">"Hệ thống đặt bàn online của nhà hàng chúng tôi được ChungSoft xây dựng rất chuyên nghiệp. Tích hợp thanh toán, quản lý order – hoàn hảo!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">T</div>
+          <div>
+            <strong data-i18n="testimonials.t2.name">Trần Văn Minh</strong>
+            <span data-i18n="testimonials.t2.role">Giám đốc chuỗi nhà hàng</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text" data-i18n="testimonials.t3.text">"Điểm PageSpeed của website sau khi ChungSoft tối ưu lên 97/100. Tỷ lệ chuyển đổi tăng gấp đôi trong tháng đầu!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">P</div>
+          <div>
+            <strong data-i18n="testimonials.t3.name">Phạm Đức Hùng</strong>
+            <span data-i18n="testimonials.t3.role">Marketing Manager, TechCorp</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text" data-i18n="testimonials.t4.text">"Mình cần gấp landing page cho chiến dịch. ChungSoft giao trong 24h, đẹp, nhanh, đúng ý. Sẽ làm việc lâu dài!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">L</div>
+          <div>
+            <strong data-i18n="testimonials.t4.name">Lê Thị Hoa</strong>
+            <span data-i18n="testimonials.t4.role">Freelance Designer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card fade-in">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text" data-i18n="testimonials.t5.text">"ERP nội bộ công ty được ChungSoft phát triển từ đầu. Tích hợp kho, nhân sự, kế toán – xử lý được 10.000 đơn/ngày mượt mà."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg, #fa709a, #fee140);">V</div>
+          <div>
+            <strong data-i18n="testimonials.t5.name">Vũ Thanh Sơn</strong>
+            <span data-i18n="testimonials.t5.role">CTO, Logistics Vietnam</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact section" id="contact" aria-label="Contact">
+  <div class="container">
+    <div class="contact-wrap fade-in">
+      <div class="contact-info">
+        <span class="section-tag" data-i18n="contact.tag">Liên hệ</span>
+        <h2 data-i18n="contact.title">Bắt đầu dự án<br /><span class="gradient-text">của bạn hôm nay</span></h2>
+        <p data-i18n="contact.sub">Tư vấn hoàn toàn miễn phí. Chúng tôi phản hồi trong vòng 2 giờ.</p>
+
+        <div class="contact-channels">
+          <a href="tel:+84000000000" class="channel-item">
+            <span class="channel-icon">📞</span>
+            <div>
+              <strong data-i18n="contact.phone">Gọi ngay</strong>
+              <span>0xxx.xxx.xxx</span>
+            </div>
+          </a>
+          <a href="https://zalo.me/0000000000" class="channel-item" target="_blank" rel="noopener noreferrer">
+            <span class="channel-icon">💬</span>
+            <div>
+              <strong>Zalo</strong>
+              <span data-i18n="contact.zalo">Chat ngay trên Zalo</span>
+            </div>
+          </a>
+          <a href="mailto:hello@chungsoft.vn" class="channel-item">
+            <span class="channel-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <span>hello@chungsoft.vn</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+        <div class="form-group">
+          <label for="name" data-i18n="contact.form.name">Tên của bạn</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Nguyễn Văn A" />
+        </div>
+        <div class="form-group">
+          <label for="phone" data-i18n="contact.form.phone">Số điện thoại</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="09xx.xxx.xxx" />
+        </div>
+        <div class="form-group">
+          <label for="budget" data-i18n="contact.form.budget">Ngân sách dự kiến</label>
+          <select id="budget" name="budget">
+            <option value="500k" data-i18n="contact.form.b1">500K – 1 triệu</option>
+            <option value="1-5m" data-i18n="contact.form.b2">1 – 5 triệu</option>
+            <option value="5-20m" data-i18n="contact.form.b3">5 – 20 triệu</option>
+            <option value="20m+" data-i18n="contact.form.b4">Trên 20 triệu</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="contact.form.message">Mô tả nhu cầu</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tôi cần website cho..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gradient btn-full" data-i18n="contact.form.submit">Gửi yêu cầu tư vấn miễn phí →</button>
+        <p class="form-note" data-i18n="contact.form.note">🔒 Thông tin của bạn được bảo mật tuyệt đối</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo" aria-label="ChungSoft">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">Chung<span class="logo-accent">Soft</span></span>
+        </a>
+        <p data-i18n="footer.desc">Thiết kế website đẹp – chuyên nghiệp – giá từ 500K. Từ cá nhân đến doanh nghiệp lớn.</p>
+        <div class="footer-badges">
+          <span class="badge badge-ssl">🔒 SSL Free</span>
+          <span class="badge badge-fast">⚡ Siêu nhanh</span>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4 data-i18n="footer.services">Dịch vụ</h4>
+        <ul>
+          <li><a href="#services" data-i18n="footer.budget">Website giá rẻ</a></li>
+          <li><a href="#services" data-i18n="footer.premium">Thiết kế cao cấp</a></li>
+          <li><a href="#services" data-i18n="footer.webapp">Web App / Hệ thống</a></li>
+          <li><a href="#templates" data-i18n="footer.templates">Xem mẫu website</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 data-i18n="footer.company">Công ty</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.about">Về ChungSoft</a></li>
+          <li><a href="#testimonials" data-i18n="footer.reviews">Đánh giá</a></li>
+          <li><a href="#pricing" data-i18n="footer.pricing">Bảng giá</a></li>
+          <li><a href="#contact" data-i18n="footer.contact">Liên hệ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 data-i18n="footer.contactTitle">Liên hệ</h4>
+        <p>📞 0xxx.xxx.xxx</p>
+        <p>✉️ hello@chungsoft.vn</p>
+        <p>💬 Zalo: 0xxx.xxx.xxx</p>
+        <p data-i18n="footer.address">🏢 TP. Hồ Chí Minh, Việt Nam</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer.copy">© 2026 ChungSoft. Tất cả quyền được bảo lưu.</p>
+      <p data-i18n="footer.made">Làm với ❤️ tại Việt Nam</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating CTA -->
+<div class="floating-cta" id="floatingCta" aria-label="Quick contact">
+  <a href="#contact" class="floating-btn" aria-label="Get free consultation" data-i18n="floating.cta">
+    💬 Tư vấn miễn phí
+  </a>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
